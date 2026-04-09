@@ -1,0 +1,36 @@
+users = {}
+
+def register():
+    username = input("Введите логин: ")
+    if username in users:
+        print("Пользователь уже существует!")
+        return
+    
+    password = input("Введите пароль: ")
+    users[username] = password
+    print("Регистрация успешна!")
+
+def login():
+    username = input("Введите логин: ")
+    password = input("Введите пароль: ")
+    
+    if username in users and users[username] == password:
+        print("Вход выполнен!")
+    else:
+        print("Неверный логин или пароль!")
+
+while True:
+    print("\n1 - Регистрация")
+    print("2 - Вход")
+    print("3 - Выход")
+    
+    choice = input("Выберите действие: ")
+    
+    if choice == "1":
+        register()
+    elif choice == "2":
+        login()
+    elif choice == "3":
+        break
+    else:
+        print("Ошибка выбора")
