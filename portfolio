@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Портфолио </h1>
+        <hr>
+        <nav>
+            <a href="#portfolio">Портфолио</a>
+            <a href="#about">Обо мне</a>
+            <a href="#skills">Скиллы</a>
+        </nav>
+        <hr>
+    </header>
+      <main>
+        <section id="about">
+            <h2>Обо мне</h2>
+            <img src="c:\Users\user\Downloads\WhatsApp Image 2026-09-25 at 10.08.12.jpeg" alt="фото" width="250">
+            <p>Меня зовут Адилхан. Мне 16 лет и я начинающий разработчик</p>
+            <p>Я занимаюсь програмированием изучением языков програмирования</p>
+            <p>Учусь в коледже АЛА-ТОО</p>
+        </section>
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <table border="1">
+                <tr>
+                    <th>Навык</th>
+                    <th>Уровень</th>
+                    <th>описание</th>
+                </tr>
+                <tr>
+                    <td><b>Python</b></td>
+                    <td>Изучаю</td>
+                    <td>базовые знания</td>
+                </tr>
+                <tr>
+                    <td><b>HTML</b></td>
+                    <td>Изучаю</td>
+                    <td>начинающий</td>
+                </tr>
+                <tr>
+                    <td><b>Java</b></td>
+                    <td>Изучаю</td>
+                    <td>начинающий</td>
+                </tr>
+
+            </table>
+        </section>
+<footer class="mini-footer">
+    <div class="footer-content">
+        <!-- Левая сторона: Копирайт -->
+        <p class="copyright">&copy; 2026 Адилхан сделал. Все права защищены.</p>
+        <p class="footer-phone">Тел: <a href="tel:+996792269436">+996 702269436</a></p>
+       
+    </div>
+</footer>
+
+
+   
+</body>
+</html>
