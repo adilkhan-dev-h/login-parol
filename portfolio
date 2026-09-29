@@ -3,117 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Портфолио</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 30px;
-        }
-
-        header {
-            text-align: center;
-        }
-
-        nav a {
-            margin: 10px;
-        }
-
-        main {
-            max-width: 800px;
-            margin: auto;
-        }
-
-        section {
-            margin-bottom: 30px;
-        }
-
-        img {
-            border-radius: 5px;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        th, td {
-            padding: 10px;
-            text-align: left;
-        }
-
-        footer {
-            margin-top: 30px;
-            text-align: center;
-        }
-    </style>
+    <title>Моё Личное Портфолио</title>
 </head>
 
 <body>
 
-    <header>
-        <h1>Портфолио</h1>
-        <hr>
+    <h1>Портфолио: Адилхан</h1>
+    <p>Студент веб-разработки · Международный колледж Ала-Тоо</p>
 
-        <nav>
-            <a href="#portfolio">Портфолио</a>
-            <a href="#about">Обо мне</a>
-            <a href="#skills">Скиллы</a>
-        </nav>
+    <hr>
 
-        <hr>
-    </header>
+    <nav>
+        <a href="#about">Главная</a> |
+        <a href="#skills">Мои Навыки</a> |
+        <a href="#work">Проекты</a> |
+        <a href="#contact">Обратная связь</a>
+    </nav>
 
-    <main>
+    <section id="about">
+        <h2>Обо мне</h2>
 
-        <section id="about">
-            <h2>Обо мне</h2>
+        <img src="image.png" alt="Фото Адилхана" width="250">
 
-            <img src="c:\Users\user\Downloads\WhatsApp Image 2026-09-25 at 10.08.12.jpeg"
-                 alt="фото"
-                 width="250">
+        <p>
+            Привет! Меня зовут Адилхан. Я активно изучаю основы веб-программирования 
+            и шаг за шагом создаю свой первый персональный сайт с нуля.
+        </p>
 
-            <p>Меня зовут Адилхан. Мне 16 лет и я начинающий разработчик.</p>
-            <p>Я занимаюсь программированием и изучением языков программирования.</p>
-            <p>Учусь в колледже АЛА-ТОО.</p>
-        </section>
+        <details>
+            <summary>Узнать подробнее о процессе обучения</summary>
+            <p>
+                На данный момент я осваиваю семантическую разметку HTML5, 
+                работу с мультимедийными тегами, создание сложных форм и базовую стилизацию.
+            </p>
+        </details>
+    </section>
 
-        <section id="skills">
-            <h2>Мои навыки</h2>
+    <hr>
 
-            <table border="1">
+    <section id="skills">
+        <h2>Навыки и успехи</h2>
+
+        <table border="1" cellpadding="5" cellspacing="0">
+            <thead>
                 <tr>
-                    <th>Навык</th>
-                    <th>Уровень</th>
-                    <th>Описание</th>
+                    <th>Направление</th>
+                    <th>Уровень освоения</th>
                 </tr>
-
+            </thead>
+            <tbody>
                 <tr>
-                    <td><b>Python</b></td>
-                    <td>Изучаю</td>
-                    <td>Базовые знания</td>
+                    <td>Структура и теги HTML</td>
+                    <td>Продвинутый</td>
                 </tr>
-
                 <tr>
-                    <td><b>HTML</b></td>
-                    <td>Изучаю</td>
-                    <td>Начинающий</td>
+                    <td>Мультимедиа и ссылки</td>
+                    <td>Средний</td>
                 </tr>
-
                 <tr>
-                    <td><b>Java</b></td>
-                    <td>Изучаю</td>
-                    <td>Начинающий</td>
+                    <td>Формы и валидация</td>
+                    <td>Базовый</td>
                 </tr>
-            </table>
-        </section>
+            </tbody>
+        </table>
 
-    </main>
+        <br>
 
-    <footer>
-        <p>&copy; 2026 Адилхан сделал. Все права защищены.</p>
-        <p>Тел: <a href="tel:+996792269436">+996 702269436</a></p>
-    </footer>
+        <p>
+            Готовность разделов сайта:
+            <progress value="4" max="5"></progress>
+            4 из 5
+        </p>
+
+        <p>
+            Уверенность в знаниях HTML:
+            <meter value="75" min="0" max="100"></meter>
+            75%
+        </p>
+
+        <p>Текущий статус: 4 полностью готовых блока страницы</p>
+    </section>
+
+    <hr>
+
+    <section id="work">
+        <h2>Мои медиафайлы</h2>
+
+        <h3>Аудиовизитка</h3>
+
+        <p>Прослушайте приветственное аудиосообщение:</p>
+
+        <audio controls>
+            <source src="music.mp3" type="audio/mpeg">
+            Ваш браузер не поддерживает воспроизведение аудио.
+        </audio>
+
+        <h3>Видеодемонстрация</h3>
+
+        <p>
+            Небольшой видеоролик, демонстрирующий текущие результаты работы.
+        </p>
+
+        <video width="320" height="240" controls>
+            <source src="video.mp4" type="video/mp4">
+            Ваш browser не поддерживает воспроизведение видео.
+        </video>
+    </section>
+
+    <hr>
+
+    <section id="contact">
+        <h2>Связаться со мной</h2>
+
+        <p>
+            Вы можете отправить мне сообщение через форму ниже (в учебных целях).
+        </p>
+
+        <form action="#" method="POST">
+
+            <fieldset>
+                <legend>Форма обратной связи</legend>
+
+                <label for="username">Ваше имя:</label><br>
+                <input type="text" id="username" name="username" placeholder="Бека" required>
+
+                <br><br>
+
+                <label for="useremail">Контактный Email:</label><br>
+                <input type="email" id="useremail" name="useremail" placeholder="example@пьфшд.com" required>
+
+                <br><br>
+
+                <label for="usermessage">Текст сообщения:</label><br>
+                
+             <textarea
+                    id="usermessage"
+                    name="usermessage"
+                    rows="6"
+                    cols="30"
+                    placeholder="Писать здесь"></textarea>
+                <br><br>
+
+                <input type="submit" value="Отправить данные">
+                <input type="reset" value="Сбросить форму">
+
+            </fieldset>
+
+        </form>
+    </section>
 
 </body>
 </html>
