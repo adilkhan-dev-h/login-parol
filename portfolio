@@ -1,74 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
+    <title>Портфолио</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        nav a {
+            margin: 10px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        img {
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        footer {
+            margin-top: 30px;
+            text-align: center;
+        }
+    </style>
 </head>
+
 <body>
+
     <header>
-        <h1>Портфолио </h1>
+        <h1>Портфолио</h1>
         <hr>
+
         <nav>
             <a href="#portfolio">Портфолио</a>
             <a href="#about">Обо мне</a>
             <a href="#skills">Скиллы</a>
         </nav>
+
         <hr>
     </header>
-      <main>
+
+    <main>
+
         <section id="about">
             <h2>Обо мне</h2>
-            <img src="c:\Users\user\Downloads\WhatsApp Image 2026-09-25 at 10.08.12.jpeg" alt="фото" width="250">
-            <p>Меня зовут Адилхан. Мне 16 лет и я начинающий разработчик</p>
-            <p>Я занимаюсь програмированием изучением языков програмирования</p>
-            <p>Учусь в коледже АЛА-ТОО</p>
+
+            <img src="c:\Users\user\Downloads\WhatsApp Image 2026-09-25 at 10.08.12.jpeg"
+                 alt="фото"
+                 width="250">
+
+            <p>Меня зовут Адилхан. Мне 16 лет и я начинающий разработчик.</p>
+            <p>Я занимаюсь программированием и изучением языков программирования.</p>
+            <p>Учусь в колледже АЛА-ТОО.</p>
         </section>
 
+        <section id="skills">
+            <h2>Мои навыки</h2>
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <table border="1">
+            <table border="1">
                 <tr>
                     <th>Навык</th>
                     <th>Уровень</th>
-                    <th>описание</th>
+                    <th>Описание</th>
                 </tr>
+
                 <tr>
                     <td><b>Python</b></td>
                     <td>Изучаю</td>
-                    <td>базовые знания</td>
+                    <td>Базовые знания</td>
                 </tr>
+
                 <tr>
                     <td><b>HTML</b></td>
                     <td>Изучаю</td>
-                    <td>начинающий</td>
+                    <td>Начинающий</td>
                 </tr>
+
                 <tr>
                     <td><b>Java</b></td>
                     <td>Изучаю</td>
-                    <td>начинающий</td>
+                    <td>Начинающий</td>
                 </tr>
-
             </table>
         </section>
-<footer class="mini-footer">
-    <div class="footer-content">
-        <!-- Левая сторона: Копирайт -->
-        <p class="copyright">&copy; 2026 Адилхан сделал. Все права защищены.</p>
-        <p class="footer-phone">Тел: <a href="tel:+996792269436">+996 702269436</a></p>
-       
-    </div>
-</footer>
 
+    </main>
 
-   
+    <footer>
+        <p>&copy; 2026 Адилхан сделал. Все права защищены.</p>
+        <p>Тел: <a href="tel:+996792269436">+996 702269436</a></p>
+    </footer>
+
 </body>
 </html>
